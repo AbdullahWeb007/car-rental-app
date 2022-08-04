@@ -1,0 +1,193 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.header {
+  height: 90vh;
+  width: 100%;
+  /* background-color:black; */
+  background: url("../components/Images/cardImages/7.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  position: relative;
+
+}
+
+.datePicker2 {
+  margin-left: 15%;
+  padding-top: 15px;
+  border-radius: 20px;
+  color: black;
+  height: 70px;
+  width: 70%;
+  background-color: white;
+  bottom: 0;
+  box-shadow: rgba(240, 235, 235, 0.4) 10px 20px 29px 10px;
+  border: 0px;
+  float: bottom;
+  margin-top: 30px;
+
+}
+
+.header1 {
+  height: 90vh;
+  width: 100%;
+  background-color: black;
+  position: absolute;
+  z-index: 0;
+  opacity: .7;
+}
+
+.left {
+  height: 100vh;
+  width: 60%;
+  position: absolute;
+  z-index: 1;
+}
+
+.right {
+  height: 100vh;
+  width: 30%;
+}
+
+.rightImg {
+
+  height: 60%;
+  width: 76%;
+  margin: auto;
+  /* background: url(./Images/cardImages/5.jpg); */
+  background-size: cover;
+  margin-top: 10%;
+  border-radius: 60px 20px;;
+  /* box-shadow: rgba(189, 226, 24, 0.2) 30px 50px 50px 30px; */
+}
+
+.browse {
+  background-image: url('../components/Images/cardImages/vacations.jpg');
+  background-size: cover;
+  background-position: center;
+  margin: auto;
+  margin-top: 8%;
+  border-radius: 60px 10px 60px 10px;
+}
+
+.browse2 {
+  background-image: url('../components/Images/cardImages/14.jpg');
+  background-size: cover;
+  background-position: center;
+  margin: auto;
+  margin-top: 8%;
+  border-radius: 60px 10px 60px 10px;
+}
+
+.leftcontent {
+  margin-left: 7.58%;
+  /* margin-right: 10%; */
+  margin-top: 22%;
+
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 46px;
+
+  color: #FFFFFF;
+}
+
+.smallpara {
+  margin-left: 7.58%;
+  margin-right: 10%;
+  margin-top: 3%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  color: white;
+
+}
+
+.contactButton {
+  width: 230px;
+  height: 60px;
+  margin-top: 10px;
+}
+
+.righth {
+  flex: 40%;
+  height: 70vh;
+  /* width:80%;  */
+  text-align: center;
+  margin-top: 15vh;
+}
+
+.left2 {
+  flex: 40%;
+  height: 70vh;
+  width: 80%;
+  text-align: center;
+  margin-top: 15vh;
+}
+
+.dateSetting {
+  margin-left: 10%;
+  margin-top: -1%;
+}
+
+@media (max-width: 800px) {
+  .datePicker2 {
+    width: 100%;
+    margin-left: -1%;
+  }
+
+  .browse {
+    display: none;
+  }
+
+  .rightImg {
+    display: none;
+  }
+
+  .left {
+    flex: 100%;
+  }
+
+  .leftcontent {
+
+    /* font-size: 8vw; */
+    width: 100%;
+    font-size: 40px;
+  }
+
+  .smallpara {
+    font-size: 20px;
+    width: 100%;
+  }
+
+  .righth {
+    flex: none;
+    width: 80%;
+    margin-right: 10%;
+    /* width: 100%; */
+  }
+
+  .browse2 {
+    display: none;
+  }
+
+  .left2 {
+    flex: none;
+    /* margin-right :10%; */
+    margin-left: 10%;
+    width: 80%;
+  }
+
+  .dateSetting {
+    margin-right: 7%;
+    margin-Top: -2%;
+  }
+
+
+}
